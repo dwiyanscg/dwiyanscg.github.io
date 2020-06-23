@@ -583,9 +583,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: url(../img/dimas&evi.jpg) no-repeat; 
   background-size: cover;
   color: #fff;
-  padding: 100px 0;
+  padding: 160px 0;
   overflow: hidden;
   position: center;
+  
+  
 
 }
 
