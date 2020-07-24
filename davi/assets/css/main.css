@@ -923,28 +923,57 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 
 /* Gallery */
+.gambar1,
+.gambar1:visited {
+  color: #1760bf;
+  text-decoration: none;
+}
+.gambar1:hover {
+  color: #c00;
+}
+.links {
+
+}
+.hidden {
+  overflow: hidden;
+  display: none;
+  visibility: hidden;
+}
+
+.btn-gallery img {
+  max-width: 300px;
+  height: auto;
+}
+
 #gallery {
   background: #ffffff;
 }
-.containerGallery {
+#gallery{
+  background-color: #F2F2F2;
+}
+/* .containerGallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   background: white;
   padding: 15px;
+
 }
 .containerGallery img {
   width: 100%;
   display: block;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
-  transition: all 100ms ease-out;
+  transition: all 100ms ease-in-out;
+ 
 }
 .containerGallery img:hover {
   transform: scale(1.04);
   -webkit-filter: grayscale(0);
-  filter: grayscale(0);
-}
+  filter: grayscale(0); }*/
+ 
+
+
 
 /* End Gallery */
 
@@ -1352,6 +1381,18 @@ p {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  .intro {
+    background: url(../../foto/DSC_5809.jpg) no-repeat; 
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    overflow: hidden;
+    background-position: center;
+    
+    
+    
+  
+  }
   .h2Mobile{
     font-family: Brush Script MT;
    
@@ -1441,8 +1482,8 @@ margin-left: -170px;
   margin-bottom: 20px;
 /* background: #fff; */
 opacity: 0.5;
-margin-right: -160px;
-margin-left: 10px;
+margin-right: -155px;
+/* margin-left: 5px; */
 
 }
 .line-right {
@@ -1570,6 +1611,8 @@ will-change: transform, scale, opacity;
 -webkit-transform: translatex(-6rem) scale(0.93);
     transform: translatex(-6rem) scale(0.93);
 transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+margin-left: 10px;
+margin-right: 10px;
 }
 
 .fade-in[data-scroll="in"], .fade-in-right[data-scroll="in"] ,.fade-in-left[data-scroll="in"] {
