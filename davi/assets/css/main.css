@@ -1381,6 +1381,142 @@ p {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  .h2Mobile{
+    font-family: Brush Script MT;
+   color: rgb(66, 64, 64);
+    font-size: 40px !important;
+  }
+  .countdown-timer {
+    color: rgb(66, 64, 64);
+    position: absolute;
+    margin: 0 auto;
+    top: 28%;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .countdown-timer .heading-count {
+    padding: 10px 68px;
+    text-align: center;
+  }
+  
+  .countdown-timer .heading-count h2 {
+    font-size: 42px;
+    color: rgb(66, 64, 64);
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .countdown-timer p {
+    font-size: 14px;
+    color: rgb(66, 64, 64);
+    line-height: 22px;
+  }
+  
+  .countdown-timer .button-group {
+    margin-top: 30px;
+  }
+  
+  .countdown-timer .btn {
+    margin: 10px;
+  }
+  
+  .time-count div {
+    text-align: center;
+  }
+  
+  .time-entry {
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 0px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(66, 64, 64);
+    font-size: 15px;
+    line-height: 22px;
+  }
+  
+  .time-entry span {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 45px;
+    font-weight: 700;
+    display: block;
+    color: rgb(66, 64, 64);
+    margin-bottom: 10px;
+  }
+  
+  .time-entry:first-child {
+    border-left: none;
+  }
+  
+  .countdown {
+    width: 100%;
+    margin: 25px auto;
+    display: inline-block;
+  }
+  
+  .countdown .time-count {
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .countdown .time-count .time-entry {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 115px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 50px -10px #000;
+  }
+  
+  .countdown .time-count .time-entry span {
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(66, 64, 64);
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 100%;
+  }
+  
+  .line-right {
+    margin: 30px 0;
+  }
+  
+  .line-right .time-count {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .line-right .time-count .time-entry {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 115px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    background: #E91E63;
+    box-shadow: 0 5px 50px -10px #fff;
+  }
+  
+  .line-right .time-count .time-entry span {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    display: block;
+    width: 100%;
+  }
+
   .intro {
     background: url(../../foto/DSC_5470.jpg) no-repeat; 
     background-size: cover;
@@ -1391,13 +1527,10 @@ p {
     
     
     
+    
   
   }
-  .h2Mobile{
-    font-family: Brush Script MT;
-   
-    font-size: 40px !important;
-  }
+  
   /* theHistory Item */
 #theHistory .icon {
   margin-bottom: 10px;
