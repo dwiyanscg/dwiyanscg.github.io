@@ -1385,6 +1385,7 @@ p {
     font-family: Brush Script MT;
    color: rgb(66, 64, 64);
     font-size: 40px !important;
+    text-align: center;
   }
   .countdown-timer {
     color: rgb(66, 64, 64);
