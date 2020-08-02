@@ -7,6 +7,11 @@
      /* Page Loader active
     ========================================================*/
     $('#preloader').fadeOut();
+
+    
+  
+   
+
 // gallery
 $('.popup-gallery').magnificPopup({
   delegate: 'a',
