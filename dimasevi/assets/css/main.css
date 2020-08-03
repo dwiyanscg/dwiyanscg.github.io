@@ -937,7 +937,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -150px;
+  margin-left: -170px;
 }
 
 /* Popup arrow */
@@ -1438,7 +1438,7 @@ p {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .intro {
-    background: url(../../foto/DSC_5809.jpg) no-repeat; 
+    background: url(../../foto/DSC_6309_edit.jpg) no-repeat; 
     background-size: cover;
     color: #fff;
     padding: 100px 0;
