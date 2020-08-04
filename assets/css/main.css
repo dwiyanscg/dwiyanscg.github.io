@@ -1385,18 +1385,17 @@ p {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .intro {
-    background: url(../img/baru_edit.png) no-repeat; 
+    background: url(../img//baru_edit.png) no-repeat; 
     background-size: cover;
-    color: #fff;
-    padding: 190px 0;
+    color: rgb(2, 2, 2);
+    padding: 200px 0;
     overflow: hidden;
     background-position: center;
-
-  }
+ }
   
   .h2Mobile{
-    font-family: Handwritten !important;
-  
+    font-family: monospace !important;
+    color: rgb(2, 2, 2);
     font-size: 40px !important;
   }
 /* ==========================================================================
