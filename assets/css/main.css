@@ -248,7 +248,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-decoration: none;
 }
 
-/* Preloader */
+/* Preloader
 #preloader {
   position: fixed;
   top: 0;
@@ -324,12 +324,12 @@ a.back-to-top:hover, a.back-to-top:focus {
   to {
     opacity: 1;
   }
-}
+} */
 
-.fadeIn {
+/* .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-}
+} */
 
 .navbar-brand {
   position: relative;

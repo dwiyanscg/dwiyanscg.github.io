@@ -6,7 +6,7 @@
 
      /* Page Loader active
     ========================================================*/
-    // $('#preloader').fadeOut();
+    $('#preloader').fadeOut();
 
     
   
