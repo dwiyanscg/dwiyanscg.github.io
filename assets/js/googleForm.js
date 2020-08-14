@@ -19,10 +19,11 @@ function postToGoogle() {
         0: function() {
           //Success message
           alert("Data anda sudah diterima. Terima Kasih !");
-          $("#nama").val('');
-          $("#alamatEmail").val('');
-          $("#alamat").val('');
-          $("#pesan").val('');
+          $("input[type='text'][name='nama']").val('');
+          $("input[type='email'][name='alamatEmail']").val('');
+          $("input[type='text'][name='alamat']").val('');
+          $("[name='pesan']").val('');
+         
          
         },
         200: function() {
